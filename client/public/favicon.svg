@@ -1,0 +1,54 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 100 100"
+  fill="none"
+>
+  <rect width="100" height="100" fill="#121212" />
+  
+  <!-- Calendar top tabs -->
+  <path
+    d="M28 15C28 13.3431 29.3431 12 31 12H34C35.6569 12 37 13.3431 37 15V18C37 19.6569 35.6569 21 34 21H31C29.3431 21 28 19.6569 28 18V15Z"
+    fill="#0D99FF"
+  />
+  <path
+    d="M63 15C63 13.3431 64.3431 12 66 12H69C70.6569 12 72 13.3431 72 15V18C72 19.6569 70.6569 21 69 21H66C64.3431 21 63 19.6569 63 18V15Z"
+    fill="#0D99FF"
+  />
+  
+  <!-- Calendar body -->
+  <rect 
+    x="25" 
+    y="18" 
+    width="50" 
+    height="35" 
+    rx="6" 
+    stroke="#0D99FF" 
+    strokeWidth="4" 
+    fill="black" 
+  />
+  
+  <!-- 364 text -->
+  <text 
+    x="50" 
+    y="40" 
+    fontFamily="Arial" 
+    fontSize="20" 
+    fontWeight="bold" 
+    fill="white" 
+    textAnchor="middle"
+  >364</text>
+  
+  <!-- Infinity symbol -->
+  <path
+    d="M28 70C28 64 34 58 42 58C50 58 58 64 58 70C58 76 50 82 42 82C34 82 28 76 28 70Z"
+    fill="transparent"
+    stroke="#0D99FF"
+    strokeWidth="4"
+  />
+  <path
+    d="M58 70C58 64 64 58 72 58C80 58 88 64 88 70C88 76 80 82 72 82C64 82 58 76 58 70Z"
+    fill="transparent"
+    stroke="#0D99FF"
+    strokeWidth="4"
+  />
+</svg>
